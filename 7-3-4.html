@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <script src="js/bootstrap.bundle.min.js"></script>
+
+</head>
+
+<body>
+    <div class="container mt-5">
+        <p>left-align (default)</p>
+        <ul class="nav">
+            <li class="nav-item"><a href="#" class="nav-link">link1</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">link2</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">link3</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">link4</a></li>
+        </ul>
+        <p class="text-center">center-align </p>
+        <ul class="nav justify-content-center">
+            <li class="nav-item"><a href="#" class="nav-link">link1</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">link2</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">link3</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">link4</a></li>
+        </ul>
+        <p class="text-end">right-align </p>
+        <ul class="nav justify-content-end">
+            <li class="nav-item"><a href="#" class="nav-link">link1</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">link2</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">link3</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">link4</a></li>
+        </ul>
+        <p>column </p>
+        <ul class="nav flex-column">
+            <li class="nav-item"><a href="#" class="nav-link">link1</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">link2</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">link3</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">link4</a></li>
+        </ul>
+    </div><!-- container -->
+    <div class="container mt-5">
+        <!-- <ul class="nav nav-pills"> -->
+        <ul class="nav nav-tabs">
+            <li class="nav-item"><a href="#" class="nav-link active">HTML</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">CSS</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">JavaScript</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">JQuery</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">XML</a></li>
+        </ul>
+
+        <h2>toggle tabs</h2>
+        <br>
+        <ul class="nav nav-tabs">
+            <li class="nav-item"><a href="#home" class="nav-link active" data-bs-toggle="tab">home</a></li>
+            <li class="nav-item"><a href="#menu1" class="nav-link" data-bs-toggle="tab">menu 1</a></li>
+            <li class="nav-item"><a href="#menu2" class="nav-link" data-bs-toggle="tab">menu 2</a></li>
+        </ul>
+        <div class="nav tab-content">
+            <div id="home" class="container tab-pane active">
+                <h3>home</h3>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua. Nisl tincidunt eget nullam non. Quis hendrerit dolor magna eget est lorem
+                    ipsum dolor sit. Volutpat odio facilisis mauris sit amet massa.
+                </p>
+            </div>
+            <div id="menu1" class="container tab-pane fade">
+                <h3>menu1</h3>
+                <p>
+                    Commodo odio aenean sed adipiscing diam donec adipiscing tristique. Mi eget mauris pharetra et. Non
+                    tellus orci ac auctor augue. Elit at imperdiet dui accumsan sit. Ornare arcu dui vivamus arcu felis.
+                </p>
+            </div>
+            <div id="menu2" class="container tab-pane fade">
+                <h3>menu2</h3>
+                <p>
+                    Nisl tincidunt eget nullam non. Quis hendrerit dolor magna eget est lorem ipsum dolor sit. Volutpat
+                    odio facilisis mauris sit amet massa. Commodo odio aenean sed adipiscing diam donec adipiscing
+                    tristique.
+                </p>
+            </div>
+        </div>
+    </div><!-- container -->
+</body>
+
+</html>
