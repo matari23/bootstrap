@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <script src="js/bootstrap.bundle.min.js"></script>
+</head>
+
+<body>
+    <div class="container mt-5">
+    <h2>입력 양식 폼</h2>
+    <form action="#">
+        <div class="mt-3 mb-3">
+            <label for="email">Email : </label>
+            <input type="email" class="form-control" placeholder="Enter Email" name="email">
+        </div>
+        <div class="mb-3">
+            <label for="pwd">Password</label>
+            <input type="password" class="form-control" placeholder="Enter Password" name="psw">
+        </div>
+
+        <div class="form-check mb-3"> 
+            <label for="formcheck"> Me </label>
+            <input type="checkbox" class="form-control" name="me">
+        </div>
+        <div class="mb-5">
+            <label for="comment">Comment</label>
+            <textarea name="text" id="textarea" cols="30" rows="10" class="form-control"></textarea>
+        </div>
+            <button type="submit" class="btn btn-primary">전송</button>
+
+    </form>
+</div>
+<div class="container mt-5">
+    <form action="#">
+        <div class="row">
+            <div class="col-4">
+                <input type="text" class="form-control" name="name" placeholder="이름을 입력하세요">
+            </div><!-- col -->
+            <div class="col-6">
+                <input type="password" class="form-control" name="psw" placeholder="비밀번호를 입력하세요">
+            </div><!-- col -->
+            <div class="col-2">
+                <input type="password" class="form-control" name="psw" placeholder="비밀번호를 입력하세요">
+            </div><!-- col -->
+        </div><!-- row -->
+    </form>
+</div>
+<div class="container mt-5">
+    <form action="#">
+        <input type="text" placeholder="large" class="form-control form-control-lg">
+        <input type="text" placeholder="normal" class="form-control mt-3 mb-3">
+        <input type="text" placeholder="small" class="form-control form-control-sm">
+
+        <label for="mycolor"> color picker </label>
+        <input type="color" class="form-control form-control-color mt-3" title="choose color" value="#cccccc">
+    </form>
+</div>
+
+<div class="conatainer mt-3">
+    <h2>select menu</h2>
+
+    <form action="#">
+        <select name="select"id="" class="form-select form-select-lg">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+        </select>
+    </form>
+    <form action="#" class="mt-3 form-select-sm">
+        <select name="select"id="" class="form-select " multiple>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3" selected>3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+        </select>
+    </form>
+
+    <form action="#">
+        <input class="form-control" list="browser">
+        <datalist  name="browser" id="browser">
+            <option value="Edge"></option>
+            <option value="Firefox"></option>
+            <option value="Chrome"></option>
+            <option value="Opera"></option>
+            <option value="Safari"></option>
+        </datalist>
+    </form>
+</div>
+<div class="container mt-3 border p-5">
+<form action="#">
+    <label for="option">option1</label>
+    <input type="checkbox" class="form-check-input" value="something" id="check1" name="option"><br>
+    <label for="option">option2</label>
+    <input type="checkbox" class="form-check-input" value="something" id="check2" name="option"><br>
+    <label for="option">option3</label>
+    <input type="checkbox" class="form-check-input" value="something" id="check3" name="option" disabled><br>
+</form>
+<form action="#" class="mt-5 border">
+    <input type="radio" class="form-check-input" id="radio1" name="gender" value="male">
+    <label for="">남자</label><br>
+    <input type="radio" class="form-check-input" id="radio2" name="gender" value="female">
+    <label for="">여자</label><br>
+</form>
+
+</div>
+
+</body>
+
+</html>
